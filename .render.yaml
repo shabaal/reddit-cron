@@ -1,5 +1,5 @@
 services:
   - type: cron
     name: reddit-top-trending
-    schedule: "0 2,14 * * *"
+    schedule: "0 2,8,14,20 * * *"
     dockerfilePath: ./Dockerfile
